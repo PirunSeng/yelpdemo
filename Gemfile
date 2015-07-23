@@ -13,6 +13,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+# uploade image
+gem 'carrierwave'
+# Store production files on amazon/s3
+gem 'fog', '~> 1.32.0'
+
+gem 'figaro', '~> 1.1.1'
 
 group :development, :test do
   gem 'byebug'
