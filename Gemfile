@@ -19,6 +19,8 @@ gem 'carrierwave'
 gem 'fog', '~> 1.32.0'
 
 gem 'figaro', '~> 1.1.1'
+# resize image
+gem 'mini_magick', '~> 4.2.7'
 
 group :development, :test do
   gem 'byebug'
