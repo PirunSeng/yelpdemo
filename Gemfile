@@ -21,6 +21,8 @@ gem 'fog', '~> 1.32.0'
 gem 'figaro', '~> 1.1.1'
 # resize image
 gem 'mini_magick', '~> 4.2.7'
+# allow multiple users access into app
+gem 'devise', '~> 3.5.1'
 
 group :development, :test do
   gem 'byebug'
