@@ -2,6 +2,9 @@ class Restaurant < ActiveRecord::Base
 
   mount_uploader :image, ImageUploader
 
+  # Add the word searchkick in order to allow searching on this model
+  searchkick
+
   has_many :reviews
 
   validates :name, :address, :phone, :website, :image, presence: true

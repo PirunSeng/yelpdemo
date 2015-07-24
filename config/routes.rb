@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
   devise_for :users
   resources :restaurants do
+    # collectin means search applies to more than one restaurant
+    collection do
+      get 'search' # Add url
+    end
     resources :reviews, except: [:show, :index]
   end
 

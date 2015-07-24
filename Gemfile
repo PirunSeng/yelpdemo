@@ -23,6 +23,8 @@ gem 'figaro', '~> 1.1.1'
 gem 'mini_magick', '~> 4.2.7'
 # allow multiple users access into app
 gem 'devise', '~> 3.5.1'
+# Enable Searching
+gem 'searchkick', '~> 0.9.0'
 
 group :development, :test do
   gem 'byebug'
